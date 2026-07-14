@@ -1,0 +1,30 @@
+{
+  "name": "javascript-restaurant-homepage",
+  "version": "1.0.0",
+  "description": "Use DOM manipulation to dynamically render a restaurant homepage!  Use Javascript to generate the contents of the website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffee-kiwi/javascript-restaurant-homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/coffee-kiwi/javascript-restaurant-homepage/issues"
+  },
+  "homepage": "https://github.com/coffee-kiwi/javascript-restaurant-homepage#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.108.4",
+    "webpack-cli": "^7.2.1",
+    "webpack-dev-server": "^6.0.0"
+  }
+}
