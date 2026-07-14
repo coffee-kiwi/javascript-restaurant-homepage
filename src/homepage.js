@@ -28,4 +28,9 @@ export function createHomepage() {
     outsideView.alt = "a view of the front of the cafe";
     content.appendChild(outsideView);
 
+    const extra1 = document.createElement("p");
+    extra1.textContent = "This is not a real cafe. Some pictures were taken at Hobbiton, NZ. Other pictures were taken at various places and restaurants.";
+    extra1.classList.add("smaller");
+    content.appendChild(extra1);
+
 }
